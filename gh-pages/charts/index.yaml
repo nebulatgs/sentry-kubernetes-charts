@@ -3,7 +3,7 @@ entries:
   clickhouse:
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-07-09T15:21:57.427560556+02:00"
+    created: "2024-07-09T15:23:53.62883001+02:00"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -20,12 +20,12 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://old.neb.bio/sentry-kubernetes-charts/charts/clickhouse-3.10.0.tgz
+    - https://old.neb.bio/sentry-kubernetes-charts/gh-pages/charts/clickhouse-3.10.0.tgz
     version: 3.10.0
   sentry:
   - apiVersion: v2
     appVersion: 24.5.1
-    created: "2024-07-09T15:21:57.450953296+02:00"
+    created: "2024-07-09T15:23:53.65941718+02:00"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -67,12 +67,12 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://old.neb.bio/sentry-kubernetes-charts/charts/sentry-23.11.0.tgz
+    - https://old.neb.bio/sentry-kubernetes-charts/gh-pages/charts/sentry-23.11.0.tgz
     version: 23.11.0
   sentry-kubernetes:
   - apiVersion: v2
     appVersion: latest
-    created: "2024-07-09T15:21:57.451166766+02:00"
+    created: "2024-07-09T15:23:53.659685084+02:00"
     description: A Helm chart for sentry-kubernetes (https://github.com/getsentry/sentry-kubernetes)
     digest: f1c30d940b346fba3df8772d0d21e9714036301db40c1c05bb60baae20a26fe1
     home: https://github.com/getsentry/sentry-kubernetes
@@ -88,6 +88,6 @@ entries:
     - https://github.com/sentry-kubernetes/charts
     type: application
     urls:
-    - https://old.neb.bio/sentry-kubernetes-charts/charts/sentry-kubernetes-0.3.4.tgz
+    - https://old.neb.bio/sentry-kubernetes-charts/gh-pages/charts/sentry-kubernetes-0.3.4.tgz
     version: 0.3.4
-generated: "2024-07-09T15:21:57.426263124+02:00"
+generated: "2024-07-09T15:23:53.626148766+02:00"
