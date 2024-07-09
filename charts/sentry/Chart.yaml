@@ -18,8 +18,8 @@ dependencies:
     version: 29.3.2
     condition: kafka.enabled
   - name: clickhouse
-    repository: https://sentry-kubernetes.github.io/charts
-    version: 3.9.0
+    repository: https://old.neb.bio/sentry-kubernetes-charts/gh-pages/charts
+    version: 3.10.0
     condition: clickhouse.enabled
   - name: zookeeper
     repository: oci://registry-1.docker.io/bitnamicharts

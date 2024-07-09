@@ -9,8 +9,8 @@ dependencies:
   repository: oci://registry-1.docker.io/bitnamicharts
   version: 29.3.2
 - name: clickhouse
-  repository: https://sentry-kubernetes.github.io/charts
-  version: 3.9.0
+  repository: https://old.neb.bio/sentry-kubernetes-charts/gh-pages/charts
+  version: 3.10.0
 - name: zookeeper
   repository: oci://registry-1.docker.io/bitnamicharts
   version: 11.4.11
@@ -23,5 +23,5 @@ dependencies:
 - name: nginx
   repository: oci://registry-1.docker.io/bitnamicharts
   version: 18.1.2
-digest: sha256:d2b502d9fc6da6808783d78bbce8785493f55179d51360942dbc61bb94be458f
-generated: "2024-06-21T12:30:50.704140079Z"
+digest: sha256:7f31b419b983e05039a81aaae683f5aac7212b6c678ebf0dde36e5ce77a89a6f
+generated: "2024-07-09T15:28:09.188802253+02:00"
